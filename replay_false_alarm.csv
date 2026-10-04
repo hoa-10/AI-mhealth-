@@ -1,0 +1,65 @@
+file,scenario,FALL,SUSP
+running_0913_01.csv,"chạy/sprint/cầu thang/đi bộ (phiên 0913, không có nhãn kịch bản)",False,False
+running_0913_02.csv,"chạy/sprint/cầu thang/đi bộ (phiên 0913, không có nhãn kịch bản)",False,False
+running_0913_03.csv,"chạy/sprint/cầu thang/đi bộ (phiên 0913, không có nhãn kịch bản)",False,False
+running_0913_04.csv,"chạy/sprint/cầu thang/đi bộ (phiên 0913, không có nhãn kịch bản)",False,False
+sprinting_0913_01.csv,"chạy/sprint/cầu thang/đi bộ (phiên 0913, không có nhãn kịch bản)",False,False
+sprinting_0913_02.csv,"chạy/sprint/cầu thang/đi bộ (phiên 0913, không có nhãn kịch bản)",False,False
+sprinting_0913_03.csv,"chạy/sprint/cầu thang/đi bộ (phiên 0913, không có nhãn kịch bản)",False,False
+sprinting_0913_04.csv,"chạy/sprint/cầu thang/đi bộ (phiên 0913, không có nhãn kịch bản)",False,False
+sprinting_0913_06.csv,"chạy/sprint/cầu thang/đi bộ (phiên 0913, không có nhãn kịch bản)",False,False
+sprinting_0913_07.csv,"chạy/sprint/cầu thang/đi bộ (phiên 0913, không có nhãn kịch bản)",False,False
+sprinting_0913_08.csv,"chạy/sprint/cầu thang/đi bộ (phiên 0913, không có nhãn kịch bản)",False,False
+stairs_0913_01.csv,"chạy/sprint/cầu thang/đi bộ (phiên 0913, không có nhãn kịch bản)",False,False
+stairs_0913_02.csv,"chạy/sprint/cầu thang/đi bộ (phiên 0913, không có nhãn kịch bản)",False,False
+stairs_0913_03.csv,"chạy/sprint/cầu thang/đi bộ (phiên 0913, không có nhãn kịch bản)",False,False
+stairs_0913_04.csv,"chạy/sprint/cầu thang/đi bộ (phiên 0913, không có nhãn kịch bản)",False,False
+walking_0913_01.csv,"chạy/sprint/cầu thang/đi bộ (phiên 0913, không có nhãn kịch bản)",False,False
+walking_0913_02.csv,"chạy/sprint/cầu thang/đi bộ (phiên 0913, không có nhãn kịch bản)",False,False
+walking_0913_03.csv,"chạy/sprint/cầu thang/đi bộ (phiên 0913, không có nhãn kịch bản)",False,False
+walking_0914_01.csv,Dừng khi đi bộ,False,False
+walking_0914_02.csv,Dừng khi đi bộ,False,False
+walking_0914_03.csv,Dừng khi đi bộ,False,False
+walking_0914_04.csv,Dừng khi chạy,False,False
+walking_0914_05.csv,Dừng khi chạy,True,False
+walking_0914_06.csv,Dừng khi chạy,False,False
+walking_0914_07.csv,Đổi hướng khi đi,False,False
+walking_0914_08.csv,Đổi hướng khi đi,False,False
+walking_0914_09.csv,Đổi hướng khi đi,False,False
+walking_0914_10.csv,Cúi nhặt đồ,False,False
+walking_0914_11.csv,Cúi nhặt đồ,False,False
+walking_0914_12.csv,Cúi nhặt đồ,False,False
+walking_0914_13.csv,Ngồi xuống nhanh,False,True
+walking_0914_14.csv,Ngồi xuống nhanh,False,True
+walking_0914_15.csv,Ngồi xuống nhanh,True,False
+walking_0914_16.csv,Đứng dậy nhanh,False,False
+walking_0914_17.csv,Đứng dậy nhanh,False,False
+walking_0914_18.csv,Đứng dậy nhanh,False,False
+walking_0914_19.csv,Trượt chân,False,False
+walking_0914_20.csv,Trượt chân,False,True
+walking_0914_21.csv,Trượt chân,False,True
+walking_0914_22.csv,Trượt chân,False,True
+walking_0914_23.csv,Dừng cầu thang,False,False
+walking_0914_24.csv,Dừng cầu thang,False,False
+walking_0914_25.csv,Dừng cầu thang,False,False
+walking_0914_26.csv,Đi khập khiễng,False,False
+walking_0914_27.csv,Đi khập khiễng,False,False
+walking_0914_28.csv,Đi khập khiễng,False,False
+walking_0914_29.csv,Nhảy xa,False,False
+walking_0914_30.csv,Nhảy xa,False,True
+walking_0914_31.csv,Nhảy xa,False,False
+walking_0914_32.csv,Va chạm nhẹ,False,False
+walking_0914_33.csv,Va chạm nhẹ,False,False
+walking_0914_34.csv,Va chạm nhẹ,False,False
+walking_0914_35.csv,Đi bộ nhanh,False,False
+walking_0914_36.csv,Đi bộ nhanh,False,False
+walking_0914_37.csv,Đi bộ nhanh,False,False
+walking_0914_38.csv,Va chạm mạnh,False,False
+walking_0914_39.csv,Va chạm mạnh,False,False
+walking_0914_40.csv,Va chạm mạnh,False,False
+walking_0914_41.csv,Nhấc vật nặng,False,True
+walking_0914_42.csv,Nhấc vật nặng,False,True
+walking_0914_43.csv,Nhấc vật nặng,False,True
+walking_0914_44.csv,Nằm có chủ đích,False,False
+walking_0914_45.csv,Nằm có chủ đích,False,False
+walking_0914_46.csv,Nằm có chủ đích,False,False

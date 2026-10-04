@@ -1,0 +1,2 @@
+timestamp,impact_t_ms,tier,score,tilt_deg,peak_g,status
+2026-10-03 11:08:28,17620.0,FALL,0.9856,60.5,2.84,EMERGENCY_DISPATCHED
