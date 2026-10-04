@@ -1,0 +1,57 @@
+protocol,model,test,sens,spec,fa_per_h,auc
+cv5_subject,CNN-BiLSTM,Own,100.0,100.0,,100.0
+cv5_subject,CNN-BiLSTM,Own-normal,,,4.07,
+cv5_subject,CNN-BiLSTM,SisFall,99.67,97.38,,99.93
+cv5_subject,CNN-BiLSTM,UNIVRFall,99.83,96.16,,99.86
+cv5_subject,Dilated TCN,Own,97.01,100.0,,100.0
+cv5_subject,Dilated TCN,Own-normal,,,0.33,
+cv5_subject,Dilated TCN,SisFall,99.39,96.79,,99.9
+cv5_subject,Dilated TCN,UNIVRFall,99.83,95.39,,99.92
+cv5_subject,MultiScale1DCNN,Own,100.0,70.0,,100.0
+cv5_subject,MultiScale1DCNN,Own-normal,,,1.1,
+cv5_subject,MultiScale1DCNN,SisFall,99.72,97.52,,99.91
+cv5_subject,MultiScale1DCNN,UNIVRFall,99.83,95.55,,99.95
+cv5_subject,RF 43 features (deployed),Own,98.51,90.0,,100.0
+cv5_subject,RF 43 features (deployed),Own-normal,,,0.46,
+cv5_subject,RF 43 features (deployed),SisFall,98.39,97.52,,99.88
+cv5_subject,RF 43 features (deployed),UNIVRFall,100.0,94.93,,99.79
+cv5_subject,SE-EdgeNet1D,Own,100.0,100.0,,100.0
+cv5_subject,SE-EdgeNet1D,Own-normal,,,0.81,
+cv5_subject,SE-EdgeNet1D,SisFall,99.5,97.27,,99.9
+cv5_subject,SE-EdgeNet1D,UNIVRFall,99.83,96.47,,99.91
+cv5_subject,TinyFallNet (proposed),Own,100.0,100.0,,100.0
+cv5_subject,TinyFallNet (proposed),Own-normal,,,1.83,
+cv5_subject,TinyFallNet (proposed),SisFall,99.33,97.04,,99.89
+cv5_subject,TinyFallNet (proposed),UNIVRFall,99.66,95.24,,99.9
+cv5_subject,Transformer,Own,100.0,100.0,,100.0
+cv5_subject,Transformer,Own-normal,,,0.96,
+cv5_subject,Transformer,SisFall,99.61,97.23,,99.94
+cv5_subject,Transformer,UNIVRFall,100.0,95.24,,99.91
+lodo,CNN-BiLSTM,Own,100.0,100.0,,100.0
+lodo,CNN-BiLSTM,Own-normal,,,1.72,
+lodo,CNN-BiLSTM,SisFall,99.5,95.2,,98.99
+lodo,CNN-BiLSTM,UNIVRFall,99.49,93.7,,99.74
+lodo,Dilated TCN,Own,97.01,100.0,,100.0
+lodo,Dilated TCN,Own-normal,,,0.52,
+lodo,Dilated TCN,SisFall,92.49,97.08,,98.33
+lodo,Dilated TCN,UNIVRFall,99.83,91.24,,99.81
+lodo,MultiScale1DCNN,Own,95.52,100.0,,99.7
+lodo,MultiScale1DCNN,Own-normal,,,2.41,
+lodo,MultiScale1DCNN,SisFall,93.05,96.79,,98.02
+lodo,MultiScale1DCNN,UNIVRFall,100.0,82.8,,99.66
+lodo,RF 43 features (deployed),Own,98.51,100.0,,100.0
+lodo,RF 43 features (deployed),Own-normal,,,0.34,
+lodo,RF 43 features (deployed),SisFall,98.78,94.75,,99.69
+lodo,RF 43 features (deployed),UNIVRFall,99.83,89.09,,99.52
+lodo,SE-EdgeNet1D,Own,94.03,100.0,,99.1
+lodo,SE-EdgeNet1D,Own-normal,,,0.86,
+lodo,SE-EdgeNet1D,SisFall,99.44,87.77,,99.33
+lodo,SE-EdgeNet1D,UNIVRFall,99.66,87.1,,99.63
+lodo,TinyFallNet (proposed),Own,95.52,100.0,,100.0
+lodo,TinyFallNet (proposed),Own-normal,,,2.75,
+lodo,TinyFallNet (proposed),SisFall,98.67,95.94,,99.51
+lodo,TinyFallNet (proposed),UNIVRFall,100.0,92.78,,99.72
+lodo,Transformer,Own,95.52,100.0,,100.0
+lodo,Transformer,Own-normal,,,3.44,
+lodo,Transformer,SisFall,97.66,96.6,,99.43
+lodo,Transformer,UNIVRFall,99.49,94.93,,99.68

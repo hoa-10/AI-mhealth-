@@ -1,0 +1,16 @@
+{
+  "model": "TinyFallNet (public+own)",
+  "threshold": 0.862493098782135,
+  "fa_per_h_target": 1.0,
+  "macs": 87480,
+  "params": 8521,
+  "window": {
+    "pre": 50,
+    "post": 100,
+    "fs": 50
+  },
+  "trigger": "local max |a| >= 1.6 g, >= 1 s apart",
+  "acc_clip_g": 2.0,
+  "false_alarm_flagged": 4,
+  "false_alarm_files": 64
+}

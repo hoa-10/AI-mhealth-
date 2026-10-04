@@ -2,6 +2,11 @@
 
 Triển khai của nghiên cứu `research_v10/` (xem `PLAN.md`, `RESULTS.md`). Chỉ phụ thuộc: numpy, pandas, scipy, scikit-learn, joblib.
 
+## Mới: TinyFallNet chạy trên ESP32-S3 (1D-CNN, 87k MAC, 37,5 KB)
+- `tinyfallnet/`: model, kết quả benchmark trên 5 metric, ngưỡng, script train và xuất C.
+- `esp32_tinyfallnet/`: firmware PlatformIO đầy đủ (cảm biến + BLE + pulse + TinyFallNet chạy trên mạch).
+- Trên dữ liệu của mình (5-fold chia theo người): F1 93,5, bắt ngã 65/67, nằm xuống không báo nhầm lần nào (0/10), 1,2 báo giả/giờ. RF 43 đặc trưng cùng giao thức đạt F1 91,0 và báo nhầm 5/10 lần nằm xuống.
+
 ## Cách hoạt động
 ```
 mẫu IMU (t_ms, acc[3], gyr[3]) -> xử lý mất gói (≤0,4 s nội suy; dài hơn thì reset)

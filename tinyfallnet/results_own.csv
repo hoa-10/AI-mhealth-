@@ -1,0 +1,6 @@
+model,Accuracy,Precision,Recall,F1,AUC,AP,falls,lying FA,FA/h
+RF 43 features (own),97.08,84.62,98.51,91.03,99.76,98.5,66/67,5/10,1.2
+TinyFallNet-Phys (own),96.63,91.94,85.07,88.37,99.31,98.64,57/67,2/10,0.52
+TinyFallNet-Phys (public+own),97.75,91.3,94.03,92.65,99.71,98.0,63/67,0/10,1.03
+TinyFallNet (own),97.98,92.65,94.03,93.33,99.17,98.09,63/67,2/10,0.52
+TinyFallNet (public+own),97.98,90.28,97.01,93.53,99.67,98.3,65/67,0/10,1.2
