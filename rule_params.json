@@ -7,7 +7,8 @@
   "post_mean_from": 15,
   "post_mean_to": 64,
   "tilt_deg": 40.0,
+  "gyro_peak_dps": 180.0,
   "ml_gate_tilt_deg": 5.0,
   "alert_delay_samples": 65,
-  "note": "alert can be raised 1.3 s after the impact (rule only); the ML tier needs 2.0 s"
+  "note": "alert can be raised 1.3 s after the impact; requires tilt >= 40 deg and gyro peak >= 180 dps to reject lying down"
 }

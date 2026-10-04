@@ -9,6 +9,7 @@
 #define FALL_POST_FROM        15       // post gravity = mean over [k+15, k+64]  (0.3 .. 1.3 s)
 #define FALL_POST_TO          64
 #define FALL_TILT_DEG         40.0f    // FALL if the posture change >= 40 deg
+#define FALL_GYRO_PEAK_DPS    180.0f   // Minimum rotational velocity (deg/s) to reject lying down
 // acc[i][0..2] in g, linear buffer containing at least samples k-50 .. k+64. Returns the posture change in degrees.
 static inline float fall_tilt_deg(const float acc[][3], int k) {
     float p[3] = {0,0,0}, q[3] = {0,0,0}; int np_ = 0, nq = 0;
@@ -18,4 +19,14 @@ static inline float fall_tilt_deg(const float acc[][3], int k) {
     for (int c = 0; c < 3; ++c) { p[c] /= np_; q[c] /= nq; dot += p[c]*q[c]; np2 += p[c]*p[c]; nq2 += q[c]*q[c]; }
     float cs = dot / (sqrtf(np2) * sqrtf(nq2) + 1e-9f); if (cs > 1) cs = 1; if (cs < -1) cs = -1;
     return acosf(cs) * 57.2957795f;
+}
+
+// gyr[i][0..2] in dps, returns the maximum angular velocity norm in the impact window [k-10 .. k+50]
+static inline float fall_gyro_peak_dps(const float gyr[][3], int k) {
+    float mx = 0.0f;
+    for (int i = k - 10; i <= k + 50; ++i) {
+        float norm = sqrtf(gyr[i][0]*gyr[i][0] + gyr[i][1]*gyr[i][1] + gyr[i][2]*gyr[i][2]);
+        if (norm > mx) mx = norm;
+    }
+    return mx;
 }
